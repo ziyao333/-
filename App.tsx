@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { LayoutDashboard, RotateCcw, TrendingUp } from 'lucide-react';
-import DataUploader from './components/DataUploader';
-import VariableSelector from './components/VariableSelector';
-import RegressionResults from './components/RegressionResults';
+import DataUploader from './components/DataUploader.tsx';  // 添加 .tsx
+import VariableSelector from './components/VariableSelector.tsx';  // 添加 .tsx
+import RegressionResults from './components/RegressionResults.tsx';  // 添加 .tsx
 import { performRegression } from './services/mathService';
 import { DataRow, VariableSelection, RegressionResult } from './types';
 
